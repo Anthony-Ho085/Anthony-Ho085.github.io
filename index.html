@@ -91,6 +91,15 @@
       margin-left: 20px;
     }
 
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     .skill-image {
       width: 100%;
       max-width: 300px;
@@ -112,10 +121,8 @@
         </div>
       </div>
       <div class="right-info">
-        <div>
-          <p>電話：+886 932-081-776</p>
-          <p>Email：ahraytv@gmail.com</p>
-        </div>
+        <p>電話：+886 932-081-776</p>
+        <p>Email：ahraytv@gmail.com</p>
       </div>
     </div>
 
@@ -123,52 +130,40 @@
       <h3>學歷/技能</h3>
       <ul>
         <li>東海大學電機工程系三年級</li>
-        <li>
-          TOEIC® Listening and Reading Test 815分
+        <li>TOEIC® Listening and Reading Test 815分
           <div style="margin-left: 0; padding-left: 0; margin-top: 5px;">
-            <img 
-              src="image/PNG.jpg" 
-              style="width: 200px; height: auto; border-radius: 12px;">
+            <img src="image/PNG.jpg" style="width: 200px; height: auto; border-radius: 12px;">
           </div>
         </li>
-        <li>
-          軟體
+        <li>軟體
           <div style="margin-left: 20px; margin-top: 5px; font-size: 0.9em; color: #555;">
             使用過：Python、C、Matlab<br>
             熟悉：Verilog、Visual Studio Code、Arduino IDE
           </div>
         </li>
-        <li>
-          程式應用
+        <li>程式應用
           <div style="margin-left: 20px; margin-top: 5px; font-size: 0.9em; color: #555;">
             使用過：Pspice、ADS<br>
             熟悉：Arduino感測器物聯網應用
           </div>
         </li>
-                    
       </ul>
     </div>
 
     <div class="section">
       <h3>作品</h3>
       <ul>
-        <li>
-          簡易溫溼度警訊器
+        <li>簡易溫溼度警訊器
           <div style="margin-left: 20px; margin-top: 5px; font-size: 0.9em; color: #555;">
-            基於Arduino ESP32的溫溼度監測裝置，利用其網路功能連結 LINE Notify <br>
-            當環境溫溼度超出設定範圍時會閃爍LED並給用戶傳送警訊。
+            基於 Arduino ESP32 的溫溼度監測裝置，利用其網路功能連結 LINE Notify，當環境溫溼度超出設定範圍時，會閃爍 LED 並發送警訊。
           </div>
         </li>
         <li style="list-style-type: none;">
           <div style="display: flex; flex-direction: column; align-items: flex-start;">
-            <a href="https://youtu.be/OrzcwLy-7tA" style="margin-bottom: 5px;">影片連結</a>
+            <a href="https://youtu.be/OrzcwLy-7tA" target="_blank" style="margin-bottom: 5px;">▶ 影片連結</a>
             <div style="display: flex; gap: 10px;">
-              <img 
-                src="image/螢幕擷取畫面 (7893).png" 
-                style="width: 300px; height: 200px; object-fit: cover; flex-shrink: 0; border-radius: 15px;">
-              <img 
-                src="image/1739697673131.jpg"  
-                style="height: 200px; width: auto; object-fit: cover; border-radius: 15px;">
+              <img src="image/螢幕擷取畫面 (7893).png" style="width: 300px; height: 200px; object-fit: cover; border-radius: 15px;">
+              <img src="image/1739697673131.jpg" style="height: 200px; width: auto; object-fit: cover; border-radius: 15px;">
             </div>
           </div>
         </li> 
@@ -178,10 +173,44 @@
     <div class="section">
       <h3>專案經驗</h3>
       <ul>
-        <li>待填。</li>
-        <li>待填。</li>
+        <li>AI Driven Non-Destructive Detection of Bread Quality Using UV-NIR Imaging
+          <div style="margin-left: 20px; margin-top: 5px; font-size: 0.9em; color: #555;">
+            時間：2025/3 ~ 進行中<br>
+            題目：基於近紅外影像的 AI 驅動烘焙過程無創檢測方法：分析物理與化學特性<br><br>
+
+            內容：專案涉及麵包物理與化學特性分析，目標為高效率即時採集與檢測數據。<br><br>
+
+            Verilog應用方向：<br>
+            1. 設計 FPGA 影像處理系統，用於即時濾波與光譜特徵擷取。<br>
+            2. 感測數據採集模組開發，包括 Verilog SPI/I2C 控制器與 ADC 介面。<br>
+            3. 建立 AI 加速模組，在 FPGA 上進行神經網路推論與矩陣運算。<br>
+            4. 提升 AI 運算效能、降低功耗，作為 CPU/GPU 替代方案。
+          </div>
+        </li>
       </ul>
     </div>
+
+    <div class="section">
+      <h3>自傳</h3>
+      <div style="font-size: 1em; color: #555; line-height: 1.8; text-align: left;">
+        我是東海大學電機工程系三年級學生，自大一修習《邏輯設計》課程起，便確立了投入積體電路設計的方向。學習應用晶片內部邏輯來設計簡單系統，開啟了我對於 IC Design 職涯的興趣。<br><br>
+
+        除錯過程中發掘新功能的嘗試，令我樂此不疲；從程式碼到實體功能運作的轉換過程尤其讓我著迷，也深刻體會到模組化設計對於複雜系統的重要性。<br><br>
+
+        「嚴謹的驗證流程，才能造就卓越的 IC 設計」——因此，我期盼能投入專業實務操作，從工作任務中持續訓練，確實理解底層邏輯功能，並掌握高效除錯的驗證方法。<br><br>
+
+        我也計畫強化自己在邏輯構成與驗證方法整合的能力，讓自己對 Design House 前端至後端流程的理解更臻深入。目前積極申請台灣半導體研究中心推行的晶片實作教育訓練課程（<a href="https://www.tsri.org.tw/tw/tpd/introduction/html5/" target="_blank">TSRI晶片課程</a>）。<br><br>
+
+        因為有使用 Python 和 Quartus 的經驗，我正在熟悉如何整合不同語言環境以達成更好的驗證結果。同時，了解低功耗設計（如 Dynamic Voltage Scaling）的應用趨勢，也希望在實務中學習如何平衡效能與功耗，滿足不同裝置需求。<br><br>
+
+        截至目前，我已修習邏輯設計與實驗、數位系統雛型設計、超大型積體電路設計導論、Python 程式設計、智慧物聯網軟硬體整合實作等課程，並具備電路學、電子學等必要基礎知識。我曾使用 Python 開發樹莓派遠端家電控制系統，也應用 Verilog RTL 設計紅綠燈數位電路系統。<br><br>
+
+        興趣廣泛的我，喜愛外語、音樂（鋼琴）、攝影與 3C 科技，樂於探索新奇領域。求學期間數度搬家轉學（台北市 → 宜蘭縣三星鄉 → 台北市 → 台中市），培養了我快速適應環境與堅韌應變的能力。<br><br>
+
+        我相信，無論是實務或研究，只要秉持創造性思維（Think outside the box）與不懼失敗的實驗精神（Trial and Error），就能在電機工程領域持續創新與成長。
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
